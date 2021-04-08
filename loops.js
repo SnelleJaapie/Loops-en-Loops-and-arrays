@@ -67,3 +67,18 @@ console.log(".........")
 // >> 9
 // ==========================================
 
+for (let i = 0; i <= 9; i++) {
+    if (i <= 2) {
+        console.log(i)
+    } else if (i >= 3) {
+        console.log(">" + i)
+    } else if (i >= 6) {
+        console.log(">>" + i)
+    }
+}
+// for (let i = 3; i <= 5; i++) {
+//     console.log("> " + i)
+// }
+// for (let i = 6; i <= 9; i++) {
+//     console.log(">> " + i)
+// }
