@@ -5,7 +5,10 @@
 // Hoera!
 // Hoera!
 // ==========================================
-
+for (let i = 0; i < 3; i++) {
+    console.log("Hoera!")
+}
+console.log("...........") //<--- om de log te scheiden voor overzicht
 
 
 // ==========================================
