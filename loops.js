@@ -20,7 +20,11 @@ console.log("...........") //<--- om de log te scheiden voor overzicht
 // loop...
 // klaar!
  // ==========================================
-
+for (let i = 0; i < 4; i++) {
+    console.log("Loop...")
+}
+console.log("Klaar!")
+console.log("...........")
 
 
 // ==========================================
