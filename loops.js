@@ -70,9 +70,9 @@ console.log(".........")
 for (let i = 0; i <= 9; i++) {
     if (i <= 2) {
         console.log(i)
-    } else if (i >= 3) {
+    } else if (i <= 5) {
         console.log(">" + i)
-    } else if (i >= 6) {
+    } else if (i <= 9) {
         console.log(">>" + i)
     }
 }
